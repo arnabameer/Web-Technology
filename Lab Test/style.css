@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 16px;
+}
+
+header {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid darkred;
+    position: relative;
+    overflow: auto;
+    outline: 2px solid #cccccc;
+    z-index: 1;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+fieldset {
+    border: 2px solid darkred;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+legend {
+    color: darkred;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Pseudo-class Selector */
+button:hover {
+    background-color: red;
+}
+
+/* Class Selector */
+.intro {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* ID Selector */
+#bloodTable {
+    overflow: auto;
+    position: relative;
+    z-index: 2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: darkred;
+    color: white;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
